@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="lighBlue">#C8C4FB</color>
+    <color name="errorRed">#ff3333</color>
+    <color name="bluebutton">#24a0ed</color>
+    <color name="botsentcolor">#558FEB</color>
+    <color name="botreceivecolor">#F1F3F4</color>
+    <color name="message_input_button_inactive">#88898b</color>
+
 </resources>

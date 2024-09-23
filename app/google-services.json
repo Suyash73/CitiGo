@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "2037720078",
+    "project_id": "citigo-2b225",
+    "storage_bucket": "citigo-2b225.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2037720078:android:f090ca36f52455328b485f",
+        "android_client_info": {
+          "package_name": "com.example.citigo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG2CDNgPffg4lo95vliLiuNeXeiNLedSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

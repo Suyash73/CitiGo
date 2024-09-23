@@ -4,15 +4,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:id="@+id/mainImage"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/mainactivityimage"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainHeading"
+        android:text="@string/mainactivityheadind"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/sideTextMargin"
+        android:layout_marginEnd="@dimen/sideTextMargin"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@id/mainImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainactivitysubheading"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/mainHeading"
+        android:layout_marginStart="@dimen/sideTextMargin"
+        android:layout_marginEnd="@dimen/sideTextMargin"
+        android:layout_marginTop="16dp"
+        android:id="@+id/mainSubheading"
+        />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/mainSubheading"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="@dimen/sideButtonMargin"
+        android:layout_marginStart="@dimen/sideButtonMargin"
+        android:paddingTop="16dp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"
+        android:text="Traveller"
+        android:id="@+id/travellerProfile"
+        android:textColor="@color/white"
+
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/travellerProfile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="@dimen/sideButtonMargin"
+        android:layout_marginStart="@dimen/sideButtonMargin"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="Local"
+        android:textStyle="bold"
+        android:id="@+id/localProfile"
+        />
+
+    
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

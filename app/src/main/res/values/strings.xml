@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">CitiGo</string>
+    <string name="WelcomeButton">Get Started</string>
+    <string name="sideMargin">14dp</string>
+    <string name="WelcomeText">Explore Delhi like never before</string>
+    <string name="LoginText">Log in</string>
+    <string name="LoginHeading">Create Account With Phone Number</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="BackBtnDescription">Back to welcome page</string>
+    <string name="otpLabel">OTP</string>
+    <string name="mainactivityheadind">Are you a traveller or a local ?</string>
+    <string name="mainactivitysubheading">Lets get started with the right content for you.</string>
+
+    <string name="travelerheading">Discover</string>
+    <string name="travelersubheading1">Plan your day</string>
+    <string name="travelersubheading2">Find nearby places</string>
+    <string name="travelersubheading3">Plan your journey</string>
+    <string name="travelJourneyBotToolbar">Travel Buddy Chat</string>
 </resources>
